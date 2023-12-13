@@ -34,7 +34,11 @@ In this assignment I played the role of a software developer for an engineering 
 
 ### What did you do very well when you found your client’s software security vulnerabilities? Why is it important to code securely? What value does software security add to a company’s overall wellbeing?
 
+Researching the vulnerability list produced by the OWASP dependency checker was a time consuming process. However I feel that I did a good job in analyzing each issue and coming up with a mitigation plan to reduce the overall risk to the application. Writing secure code is not always front and center in a developers mind when they are building new features. However, it's important because it shows that you care about the product and the end users. It's also much easier to build security in from beginning than it is to refactor the code after it's already written. Writing secure code reduces risk to the business and allows them to focus on what they do best, running their application.
+
 ### What part of the vulnerability assessment was challenging or helpful to you?
+
+The most challenging part of the process was trying to understand how certain vulnerabilites could impact the application. In many cases the vulnerabilites are in open-source or third party libraries that you are not familiar with. You really just have to either upgrade the library to a newer version or try to make an educated guess on the potential impact. In many cases I found that it's easier to just avoid the problem by upgrading the vulnerable libraries instead of trying to resolve the problem in some other way. This might not always be possible, but is preferable in many cases.
 
 ### How did you increase layers of security? In the future, what would you use to assess vulnerabilities and decide which mitigation techniques to use?
 
