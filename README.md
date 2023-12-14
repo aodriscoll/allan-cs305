@@ -45,11 +45,11 @@ The most challenging part of the process was trying to understand how certain vu
 
 I increased layers of security in the application in several different ways. The starting point was to understand the client's goals and security needs. This initial analysis was followed by a vulnerability scan and manual testing. All of this was compiled into a Vulnerability Assessment Report along with a mitigation plan (O'Driscoll, 2023a). It's important to understand the starting point so that you can measure your progress. After this initial research, I started the implementation. This included the creation and installation of an SSL certificate to enable secure communications between the client and server, implementing code to validate data using a checksum, and addressing security vulnerabilities that were discovered earlier in the exercise. This process was documented in a Practices for Secure Software Report (O'Driscoll, 2023b).
 
-In the future, I will continue to use a similar process. Specifically, I would use tools like the OWASP Dependency Checker (https://owasp.org/www-project-dependency-check/) along with websites such as the National Vulnerability Database to analyze issues (https://nvd.nist.gov/). I would ensure that dependencies stay up to date as much as possible and would also follow recommendations such as the Oracle Secure Coding Guidelines for Java SE (https://www.oracle.com/java/technologies/javase/seccodeguide.html). These tools are provided free of charge and allow developers to leverage the work done by the open-source community to keep their software secure.
+In the future, I will continue to use a similar process. Specifically, I would use tools like the OWASP Dependency Checker (OWASP, n.d.) along with websites such as the National Vulnerability Database to analyze issues (NIST, n.d.). I would ensure that dependencies stay up to date as much as possible and would also follow recommendations such as the Oracle Secure Coding Guidelines for Java SE (Oracle, n.d.). These tools are provided free of charge and allow developers to leverage the work done by the open-source community to keep their software secure.
 
 ### How did you make certain the code and software application were functional and secure? After refactoring the code, how did you check to see whether you introduced new vulnerabilities?
 
-Besides security scans provided by tools such as the OWASP Dependency Checker, I performed manual code reviews that were guided by the Vulnerability Assessment Process Flow Diagram (TODO Citation). This diagram helped to maintain a focused approach to reviewing the application's security architecture and code base. After refactoring the code, I performed manual testing and executed a secondary dependency check to ensure that no new vulnerabilities had been introduced. I corrected several issues that I found and also reviewed the remaining issues to identify false positives. This process worked well and resulted in a secure application that met the client's needs.
+Besides security scans provided by tools such as the OWASP Dependency Checker, I performed manual code reviews that were guided by the Vulnerability Assessment Process Flow Diagram (SNHU, n.d.). This diagram helped to maintain a focused approach to reviewing the application's security architecture and code base. After refactoring the code, I performed manual testing and executed a secondary dependency check to ensure that no new vulnerabilities had been introduced. I corrected several issues that I found and also reviewed the remaining issues to identify false positives. This process worked well and resulted in a secure application that met the client's needs.
 
 ### What resources, tools, or coding practices did you use that might be helpful in future assignments or tasks?
 
@@ -66,4 +66,14 @@ The two projects completed in this class will be useful in showcasing skills for
 
 ## References
 
-https://learn.snhu.edu/content/enforced/1426327-CS-305-H7001-OL-TRAD-UG.23EW2/course_documents/CS%20305%20Vulnerability%20Assessment%20Process%20Flow%20Diagram.pdf?_&d2lSessionVal=ScQoRYLN9OTGv4T9RbCyYwie6&ou=1332052&_&d2lSessionVal=V56KXROIp7jypSiUts5rSfUqB&ou=1426327
+NIST. (n.d.). National Vulnerability Database. NVD. https://nvd.nist.gov/
+
+O’Driscoll, A. J. (2023a). Artemis Financial Vulnerability Assessment Report. GitHub. https://github.com/aodriscoll/allan-cs305/blob/main/Allan_ODriscoll_CS_305_Project_One_20231111.docx 
+
+O’Driscoll, A. J. (2023b). Practices for Secure Software Report. GitHub. https://github.com/aodriscoll/allan-cs305/blob/main/Allan_ODriscoll_CS_305_7_1_Project_Two_20231210.docx
+
+Oracle. (2023, May). Secure Coding Guidelines for Java SE. Secure coding guidelines for java SE. https://www.oracle.com/java/technologies/javase/seccodeguide.html 
+
+OWASP. (n.d.). Owasp dependency-check. OWASP Dependency-Check | OWASP Foundation. https://owasp.org/www-project-dependency-check/
+
+SNHU. (n.d.). Vulnerability Assessment Process Flow. CS-305-H7001 Software Security 23EW2. https://learn.snhu.edu/content/enforced/1426327-CS-305-H7001-OL-TRAD-UG.23EW2/course_documents/CS%20305%20Vulnerability%20Assessment%20Process%20Flow%20Diagram.pdf?ou=1332052%2c1426327
