@@ -64,17 +64,17 @@ A number of tools were introduced in this class that would be helpful for future
 
 ### Employers sometimes ask for examples of work that you have successfully completed to show your skills, knowledge, and experience. What might you show future employers from this assignment?
 
-The two projects completed in this class ([one](Allan_ODriscoll_CS_305_Project_One_20231111.docx),[two](Allan_ODriscoll_CS_305_7_1_Project_Two_20231210.docx)) will be useful in showcasing skills for future employers. They show the end-to-end security analysis performed on an application, including remediation of known vulnerabilities and refactoring to enhance security. The ability to document this entire process from beginning to end demonstrates a developer's attention to detail and provides a reference for future projects. These documents provide concrete evidence of the skills developed in this class.
+The two projects completed in this class ([one](Allan_ODriscoll_CS_305_Project_One_20231111.docx), [two](Allan_ODriscoll_CS_305_7_1_Project_Two_20231210.docx)) will be useful in showcasing skills for future employers. They show the end-to-end security analysis performed on an application, including remediation of known vulnerabilities and refactoring to enhance security. The ability to document this entire process from beginning to end demonstrates a developer's attention to detail and provides a reference for future projects. These documents provide concrete evidence of the skills developed in this class.
 
 ## References
-
-Oracle. (n.d.). *Keytool.* Keytool. https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html 
 
 NIST. (n.d.). *National Vulnerability Database.* NVD. https://nvd.nist.gov/
 
 O’Driscoll, A. J. (2023a). *Artemis Financial Vulnerability Assessment Report.* GitHub. https://github.com/aodriscoll/allan-cs305/blob/main/Allan_ODriscoll_CS_305_Project_One_20231111.docx 
 
 O’Driscoll, A. J. (2023b). *Practices for Secure Software Report.* GitHub. https://github.com/aodriscoll/allan-cs305/blob/main/Allan_ODriscoll_CS_305_7_1_Project_Two_20231210.docx
+
+Oracle. (n.d.). *Keytool.* Keytool. https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html 
 
 Oracle. (2023, May). *Secure Coding Guidelines for Java SE.* Secure coding guidelines for java SE. https://www.oracle.com/java/technologies/javase/seccodeguide.html 
 
